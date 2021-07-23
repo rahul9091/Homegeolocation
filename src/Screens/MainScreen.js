@@ -78,7 +78,6 @@ useEffect(()=>{
         <Text style={styles.title}>What's your address?</Text>
       </View>
       <Text style={styles.text}>{displayCurrentAddress}</Text>
-      <Button title="Map" onPress={()=>props.navigation.navigate('Map')}/>
     </View>
   );
 };
